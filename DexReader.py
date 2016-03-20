@@ -389,8 +389,3 @@ class DexReader:
                 retries = retries-1
         print "Gave up"
         return False    
-        
-reader = DexReader("/dev/ttyp3")
-print "===DEX DATA:"
-print reader.read()
-print "=== end of data"
